@@ -1,0 +1,19 @@
+O que é Arquitetura Hexagonal e por quem ela foi criada?
+É um padrão de arquitetura que separa o núcleo da aplicação (regras de negócio) das dependências externas (UI, banco de dados, APIs) usando portas e adaptadores. Foi criada por Alistair Cockburn.
+
+
+Quais são os benefícios e recursos que Arquitetura Hexagonal fornece?
+Facilita testes isolados do núcleo.
+Permite trocar tecnologias externas sem impactar o domínio.
+Deixa o código mais manutenível e flexível.
+Facilita integração com múltiplas interfaces (UI, APIs, sistemas externos).
+
+
+Quais as diferenças entre Arquitetura Hexagonal e Clean Architecture?
+Hexagonal foca em núcleo vs adaptadores.
+Clean Architecture organiza o sistema em camadas concêntricas com regras de dependência das camadas internas para externas.
+Objetivo similar (isolamento de domínio), mas modelagem e abstrações são diferentes.
+
+Na sua opinião, a Arquitetura Hexagonal pode ser utilizada em qualquer tipo de projeto ? Quais informações devem ser consideradas antes de desenvolver sistemas usando esse padrão de projeto?
+Pode ser usada na maioria dos projetos, mas projetos muito simples podem não precisar.
+Avaliar: complexidade do sistema, necessidade de testes isolados, integração com múltiplos sistemas, evolução futura e manutenção do código.
